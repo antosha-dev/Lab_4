@@ -64,7 +64,7 @@ button:hover {
 upper_header {
   display: flex;
   width: 144rem;
-  height: 4.8rem;
+  height: 48px;
   justify-content: center;
 }
 
@@ -75,10 +75,10 @@ upper_header .inside {
 }
 
 upper_header .inside p {
-  width: 32.1rem;
+  width: 321px;
   margin-left: 52rem;
   margin-top: 1.2rem;
-  font-size: 1.5rem;
+  font-size: 15px;
   line-height: 160%;
   color: #4b5563;
 }
@@ -89,7 +89,7 @@ upper_header .inside span {
   height: 3.2rem;
   margin-left: 132.7rem;
   margin-top: 0.8rem;
-  font-size: 3.2rem;
+  font-size: 32px;
   line-height: 100%;
   color: #4b5563;
 }
@@ -114,7 +114,7 @@ header .inside {
 header .inside article {
   display: flex;
   position: relative;
-  width: 38.3rem;
+  width: 383px;
   height: 7.2rem;
   margin-left: 43.65rem;
 }
@@ -124,7 +124,7 @@ header .inside article nav {
   margin-left: 2.5rem;
   margin-top: 2.4rem;
   font-family: var(--font-family);
-  font-size: 1.6rem;
+  font-size: 16px;
   line-height: 150%;
   color: #fff;
 }
@@ -149,7 +149,7 @@ header .inside .main_control .block symb {
   display: flex;
   position: relative;
   width: 1.9rem;
-  font-size: 1.9rem;
+  font-size: 19px;
   line-height: 152%;
   color: #fff;
 }
@@ -167,7 +167,7 @@ header .inside .main_control .block span {
 header .inside .main_control button {
   width: 10.6rem;
   height: 5rem;
-  font-size: 1.6rem;
+  font-size: 16px;
   line-height: 150%;
   text-align: center;
   color: #1f2937;
@@ -199,7 +199,7 @@ main block_1 .inside {
 
 main block_1 .inside img {
   width: 60rem;
-  height: 64re;
+  height: 64rem;
   border-radius: 2.4rem;
 }
 
@@ -265,7 +265,7 @@ main block_1 .inside .text_block .explore symb {
   margin-left: 0.4rem;
   margin-top: 2.3rem;
   font-weight: 400;
-  font-size: 2.6rem;
+  font-size: 26px;
   line-height: 150%;
   text-align: center;
   color: #fff;
@@ -293,16 +293,17 @@ main block_1 .inside .text_block .review .block {
 
 main block_1 .inside .text_block .review .block .stars {
   color: #e0b420;
+  width: 40rem;
 }
 
 main block_1 .inside .text_block .review .block .stars symb {
-  width: 2.15rem;
+  width: 21.5px;
   height: 3.6rem;
 }
 
 main block_1 .inside .text_block .review .block p {
   margin-top: -1.2rem;
-  font-size: 1.6rem;
+  font-size: 16px;
   line-height: 150%;
   color: #fff;
 }
@@ -314,12 +315,12 @@ main block_1 .inside .text_block .review .block p {
 main block_2 {
   display: grid;
   width: 144rem;
-  height: 19.1rem;
+  height: 191px;
   background-color: #00353b;
 }
 
 main block_2 p {
-  font-size: 1.8rem;
+  font-size: 18px;
   line-height: 150%;
   text-align: center;
   color: #fff;
@@ -1552,3 +1553,231 @@ footer .inside .bottom_block .icons svg {
 }
 
 /*#endregion*/
+
+@media (max-width: 768px) {
+  html {
+    font-size: 5.333px;
+  }
+
+  upper_header .inside p {
+    place-self: center;
+    margin-left: 37rem;
+  }
+
+  header .inside .main_control .block {
+    display: none;
+  }
+
+  header .inside article {
+    align-self: center;
+    margin-left: 0rem;
+  }
+
+  header .inside article nav {
+    margin-top: 1.2rem;
+  }
+
+  header .inside .main_control button {
+    margin-left: 30rem;
+    font-size: 13px;
+  }
+
+  main block_1 .inside .text_block p {
+    margin-top: 1rem;
+    font-size: 2.2rem;
+  }
+
+  main block_1 .inside .text_block .explore button {
+    width: 150px;
+    height: 6rem;
+    font-size: 14px;
+    border-radius: 1.5rem;
+  }
+
+  main block_1 .inside .text_block .explore span {
+    font-size: 12px;
+    line-height: 150%;
+  }
+
+  main block_1 .inside .text_block .explore symb {
+    margin-left: 0.6rem;
+    margin-top: 1rem;
+  }
+  main block_1 .inside .text_block .review img {
+    display: flex;
+    width: 140px;
+    height: 40px;
+    border-radius: 0rem;
+  }
+}
+/*
+@media (max-width: 768px) {
+  /*#region global_fonts*/
+/*
+  h2 {
+    font-family: var(--second-family);
+    font-weight: 400;
+  }
+  
+  h3 {
+    font-family: var(--font-family);
+    font-weight: 400;
+  }
+  
+  p {
+    font-family: var(--font-family);
+    font-weight: 400;
+  }
+  
+  nav {
+    font-family: var(--font-family);
+    font-weight: 400;
+  }
+  
+  span {
+    font-family: var(--font-family);
+    font-weight: 400;
+  }
+  
+  button {
+    font-family: var(--font-family);
+    font-weight: 400;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    filter: brightness(110%) contrast(103%);
+  }
+  
+  .interactive:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    filter: brightness(110%) contrast(103%);
+  }
+  
+  /*#endregion*/
+
+/*#region upper_header*/
+/*
+  upper_header {
+    display: flex;
+    width: 76.8rem;
+    height: 4.8rem;
+    justify-content: center;
+  }
+  
+  upper_header .inside {
+    display: flex;
+    position: relative;
+    width: 136rem;
+  }
+  
+  upper_header .inside p {
+    width: 32.1rem;
+    margin-left: 27.5rem;
+    margin-top: 1.2rem;
+    font-size: 1.5rem;
+    line-height: 160%;
+    color: #4b5563;
+  }
+  
+  upper_header .inside span {
+    position: absolute;
+    width: 3.2rem;
+    height: 3.2rem;
+    margin-left: 70.3rem;
+    margin-top: 0.8rem;
+    font-size: 3.2rem;
+    line-height: 100%;
+    color: #4b5563;
+  }
+  
+  /*#endregion*/
+
+/*#region header*/
+/*
+  header {
+    width: 76.8rem;
+    height: 7.2rem;
+    background-color: #00353b;
+  }
+  
+  header .inside {
+    display: flex;
+    width: 67.8rem;
+    height: 7.2rem;
+    margin-left: 4.2rem;
+  }
+  
+  header .inside article {
+    display: flex;
+    position: relative;
+    width: 38.3rem;
+    height: 7.2rem;
+    margin-left: 23.13rem;
+  }
+  
+  header .inside article nav {
+    height: 2.4rem;
+    margin-left: 1.3rem;
+    margin-top: 2.4rem;
+    font-family: var(--font-family);
+    font-size: 1.6rem;
+    line-height: 150%;
+    color: #fff;
+  }
+  
+  header .inside .main_control {
+    display: flex;
+    position: absolute;
+    gap: 2.5rem;
+    width: 40.45rem;
+    height: 5rem;
+    margin-left: 87.55rem;
+    margin-top: 1.1rem;
+  }
+  
+  header .inside .main_control .block {
+    display: flex;
+    height: 2.9rem;
+    margin-top: 1rem;
+  }
+  
+  header .inside .main_control .block symb {
+    display: flex;
+    position: relative;
+    width: 1.9rem;
+    font-size: 1.9rem;
+    line-height: 152%;
+    color: #fff;
+  }
+  
+  header .inside .main_control .block span {
+    display: flex;
+    position: relative;
+    margin-left: 0.8rem;
+    margin-top: 0.24rem;
+    font-size: 1.6rem;
+    line-height: 150%;
+    color: #fff;
+  }
+  
+  header .inside .main_control button {
+    width: 10.6rem;
+    height: 5rem;
+    font-size: 1.6rem;
+    line-height: 150%;
+    text-align: center;
+    color: #1f2937;
+    background-color: #fff;
+    border-color: #fff;
+    border: none;
+    border-radius: 0.8rem;
+  }
+  
+  /*#endregion*/
+
+/*
+  }
+*/
