@@ -1596,18 +1596,80 @@ footer .inside .bottom_block .icons svg {
 
   main block_1 .inside .text_block .explore span {
     font-size: 12px;
-    line-height: 150%;
   }
 
   main block_1 .inside .text_block .explore symb {
     margin-left: 0.6rem;
     margin-top: 1rem;
   }
+
   main block_1 .inside .text_block .review img {
     display: flex;
     width: 140px;
     height: 40px;
     border-radius: 0rem;
+  }
+
+  main block_2 p {
+    font-size: 13px;
+  }
+
+  main block_3 .text_rect .inside {
+    width: 140rem;
+    height: 60rem;
+    margin-top: 6.4rem;
+  }
+  main block_3 .text_rect .inside h2 {
+    font-size: 6rem;
+  }
+
+  footer .inside .upper_block .input_block .input button {
+    width: 12.4rem;
+    height: 5rem;
+    margin-left: 1.6rem;
+    font-size: 1.8rem;
+    line-height: 160%;
+    text-align: center;
+    color: #fff;
+    background-color: #22a45a;
+    border: none;
+    border-radius: 0.8rem;
+  }
+  
+  footer .inside .upper_block .input_block h3 {
+    width: 39.4rem;
+    margin-top: 5.9rem;
+    font-size: 1.8rem;
+    line-height: 150%;
+    color: #fff;
+  }
+
+  footer .inside .upper_block .input_block p {
+    margin-top: 1.8rem;
+    font-size: 1.5rem;
+    line-height: 150%;
+    color: #fff;
+  }
+
+  footer .inside .upper_block .navigation_block .navigation_column h3 {
+    margin-bottom: 2.4rem;
+    font-size: 2.2rem;
+    line-height: 150%;
+    color: #fff;
+  }
+  
+  footer .inside .upper_block .navigation_block .navigation_column p {
+    margin-top: 1.6rem;
+    font-size: 1.6rem;
+    line-height: 150%;
+    color: #fff;
+  }
+
+  footer .inside .bottom_block p {
+    margin-top: 0.55rem;
+    font-size: 1.7rem;
+    line-height: 150%;
+    color: #fff;
   }
 }
 /*
